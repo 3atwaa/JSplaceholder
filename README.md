@@ -3,7 +3,7 @@ It's called "The JS placeholder project" genius.......<br />
 Usage:<br />
   -add attribute of 'ph' to the specified text box with the wished placeholder....<br />
 Example:<br />
-  #<input type="text" ph="First name." /><br /><br />
+  `<input type="text" ph="First name." />`<br /><br />
 
 
 
