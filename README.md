@@ -6,7 +6,8 @@ Example:<br />
   <input type="text" ph="First name." /><br /><br />
 
 
-The features we have :<br />
+
+Features :<br />
   -You can style the placeholder with css using the class "ph".<br />
     Example: (imagine there was style tags) .ph{color:red}<br />
   -Auto padding , Width & height inheritance.<br />
