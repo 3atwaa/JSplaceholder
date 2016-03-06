@@ -3,7 +3,7 @@ It's called "The JS placeholder project" genius.......<br />
 Usage:<br />
   -add attribute of 'ph' to the specified text box with the wished placeholder....<br />
 Example:<br />
-  <input type="text" ph="First name." /><br /><br />
+  #<input type="text" ph="First name." /><br /><br />
 
 
 
@@ -20,6 +20,7 @@ Known bugs:<br />
   -Solution: ise the css class to apply the same padding.
   
 getStyle function was taken from : http://robertnyman.com/2006/04/24/get-the-rendered-style-of-an-element<br />
-*aint  nobody have time for making something already has been made.*<br />
 
-Almost forgot: DO not exceed in the no. of characters.......<br />
+Almost forgot:<br />
+  -Do not exceed in the no. of characters.......<br />
+  -for looking exactly like a real placeholder, apply "padding" property of value equals to that of the text-box.
