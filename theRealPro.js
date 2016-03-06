@@ -42,7 +42,6 @@
 			//adding some inherited styles.
 			text[i].style.width = getStyle(inArray[i], 'width');
 			text[i].style.height = getStyle(inArray[i], 'height');
-			text[i].style.padding = getStyle( inArray[i], 'padding' );
 
 			//zIndex for the 'p' element to be overlayed by the input element.
 			text[i].style.zIndex = -1;
@@ -54,7 +53,7 @@
 			inArray[i].style.backgroundColor = 'transparent';
 
 			//picking a good color for the 'p' element.
-			text[i].style.color = '#F4CEB6';
+			text[i].style.color = '#A9A9A9';
 			//adding the fucking EVENT HANDLER!!!!!!		
 			//"false"==>"default" we need it bubbling baby......(added it just to make sure...)
 			//added a self invoking fucntion to fix the closure issue....
