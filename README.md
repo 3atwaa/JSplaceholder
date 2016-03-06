@@ -20,3 +20,5 @@ Known bugs:<br />
   
 getStyle function was taken from : http://robertnyman.com/2006/04/24/get-the-rendered-style-of-an-element<br />
 *aint  nobody have time for making something already has been made.*<br />
+
+Almost forgot: DO not exceed in the no. of characters.......<br />
