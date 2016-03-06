@@ -15,8 +15,8 @@ The features we have :<br />
   -It is written in plain JS.<br />
   
 Known bugs:<br />
-  -in IE (9.10.Edge)<br />.
-  -please add an inline padding style.<br />
+  -auto padding inheritance don't work in IE9+
+  -Solution: ise the css class to apply the same padding.
   
 getStyle function was taken from : http://robertnyman.com/2006/04/24/get-the-rendered-style-of-an-element<br />
 *aint  nobody have time for making something already has been made.*<br />
