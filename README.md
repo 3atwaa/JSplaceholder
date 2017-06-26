@@ -1,4 +1,4 @@
-# TheJSPlaceholderProject
+# JSplaceholder
 A simple script to activate the `placeholder` attribute in older browsers.<br />
 Usage:<br />
   -add the placeholder normally as you do and the script will do the rest<br />
@@ -7,7 +7,7 @@ Example:<br />
 
 
 
-#NOTE
+# NOTE
   -Place the script at the end of your html file or make sure that the document has loaded completely.  
 
 Features :<br />
