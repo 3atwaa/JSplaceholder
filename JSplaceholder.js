@@ -1,4 +1,4 @@
-	function getStyle(oElm, strCssRule){
+function getStyle(oElm, strCssRule){
 	var strValue = "";
 	if(document.defaultView && document.defaultView.getComputedStyle){
 		strValue = document.defaultView.getComputedStyle(oElm, "").getPropertyValue(strCssRule);
@@ -12,18 +12,20 @@
 	return strValue;
 }
 
+var i = document.createElement('Input');
+i.type = "text";
+if (typeof i.placeholder == undefined || typeof i.placeholder == null || typeof i.placeholder == 'undefined' ) {
+
 	//getStyle() function's credits to Robert Nyman [taken from his blog or website]
 	//robertnyman.com
 
 	var inArray = document.getElementsByTagName('input'), pos,i,text=[];
-	//Variable "text" 's declaration at top for execution speed.
 	for (i = 0; i < inArray.length; i++) {
-		//creating a paragraph having the same value of 'ph' attribute.
-		if(inArray[i].getAttribute('ph')) {
+		if(inArray[i].getAttribute('placeholder')) {
 
 			text[i] = document.createElement('p');
 			text[i].className = 'ph';
-			text[i].innerHTML = inArray[i].getAttribute('ph');
+			text[i].innerHTML = inArray[i].getAttribute('placeholder');
 			document.body.appendChild(text[i]);
 
 			//Accessing the position of the input elements.
@@ -53,9 +55,7 @@
 			inArray[i].style.backgroundColor = 'transparent';
 
 			//picking a good color for the 'p' element.
-			text[i].style.color = '#A9A9A9';
-			//adding the fucking EVENT HANDLER!!!!!!		
-			//"false"==>"default" we need it bubbling baby......(added it just to make sure...)
+			text[i].style.color = '#A9A9A9';		
 			//added a self invoking fucntion to fix the closure issue....
 			(function(x){
 				if(window.addEventListener) {
@@ -79,4 +79,5 @@
 				}
 		})(i);			
 	}
+}
 }
