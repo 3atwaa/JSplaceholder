@@ -7,8 +7,8 @@ Example:<br />
 
 
 
-# NOTE
-  -Place the script at the end of your html file or make sure that the document has loaded completely.  
+
+-Place the script at the end of your html file or make sure that the document has loaded completely.  
 
 Features :<br />
   -You can style the placeholder with css using the class "ph".<br />
