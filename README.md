@@ -1,15 +1,17 @@
 # TheJSPlaceholderProject
-It's called "The JS placeholder project" genius.......<br />
+A simple script to activate the `placeholder` attribute in older browsers.<br />
 Usage:<br />
-  -add attribute of 'ph' to the specified text box with the wished placeholder....<br />
+  -add the placeholder normally as you do and the script will do the rest<br />
 Example:<br />
-  `<input type="text" ph="First name." />`<br /><br />
+  `<input type="text" placeholder="First name." />`<br /><br />
 
 
+
+#NOTE
+  -Place the script at the end of your html file or make sure that the document has loaded completely.  
 
 Features :<br />
   -You can style the placeholder with css using the class "ph".<br />
-    Example: (imagine there was style tags) .ph{color:red}<br />
   -Auto padding , Width & height inheritance.<br />
   -Works on IE5.<br />
   -No need for server-side verification for such issue, as the text of placeholder is actually a "p" element.<br />
@@ -20,7 +22,3 @@ Known bugs:<br />
   -Solution: ise the css class to apply the same padding.
   
 getStyle function was taken from : http://robertnyman.com/2006/04/24/get-the-rendered-style-of-an-element<br />
-
-Almost forgot:<br />
-  -Do not exceed in the no. of characters.......<br />
-  -for looking exactly like a real placeholder, apply "padding" property of value equals to that of the text-box.
