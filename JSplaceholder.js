@@ -51,12 +51,9 @@ if (typeof i.placeholder == undefined || typeof i.placeholder == null || typeof 
 			//Storing the BG color for a later use.
 			bgColor = inArray[i].style.backgroundColor;
 				
-			//making the input element transparent.
 			inArray[i].style.backgroundColor = 'transparent';
-
-			//picking a good color for the 'p' element.
-			text[i].style.color = '#A9A9A9';		
-			//added a self invoking fucntion to fix the closure issue....
+			text[i].style.color = '#A9A9A9';
+			
 			(function(x){
 				if(window.addEventListener) {
 					inArray[x].addEventListener('keyup', function(){
