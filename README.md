@@ -19,6 +19,6 @@ Features :<br />
   
 Known bugs:<br />
   -auto padding inheritance doesn't work in IE9+
-  -Solution: ise the css class to apply the same padding.
+  --Solution: use the css class to apply the same padding.
   
 getStyle function was taken from : http://robertnyman.com/2006/04/24/get-the-rendered-style-of-an-element<br />
